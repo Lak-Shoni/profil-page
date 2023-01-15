@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.7740138291644783) 0%, rgba(195,234,255,0.7740138291644783) 8%, rgba(20,171,255,0.5219129888283438) 99%);
+}
+
+p,h1{
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.container{
+    height: 400px;
+}
+.container > .bg-atas{
+    height: 250px;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.5);
+}
+.bg-atas > img{
+    height: 250px;
+    width: 100%;
+}
+
+.container > .foto{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 42%;
+    top: 20%;
+    border-radius: 100%;
+    box-shadow: 1px 2px 4px 1px rgba(1, 1, 1, 0.2);
+    transform: 0.5s;
+}
+
+.container .foto:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 8px 2px rgba(1, 1, 1, 0.2);
+    
+}
+
+.container > .nama{
+    position: absolute;
+    padding-top: 35px;
+    left: 32%;
+    font-size: 24pt;
+    text-align: center;
+}
+ .container > .nama >p{
+    padding: 0%;
+    font-family: 'Righteous', cursive;
+ }
+
+ .biodata{
+    padding: 0 10%;
+    height: 380px;
+    display: flex;
+}
+.biodata > .isi{
+    display: flex;
+    box-shadow: 0px 4px 8px 0px rgb(1,1,1,0.1);
+    border-top: 1px solid rgba(1, 1, 1, 0.1);
+    border-radius: 30px;
+    transform: 3s;
+    background: rgba(255, 255, 255, 0.575);
+}
+
+.biodata > .isi:hover{
+    box-shadow: 0px 6px 10px 0px rgb(1,1,1,0.3);
+}
+
+.biodata > .isi > div{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    font-size: 14pt;
+}
+.biodata > .isi  img{
+    width: 35%;
+}
+.biodata > .isi > p{
+    font-size: 18pt;
+    padding-left:15%;
+}
+
+.biodata .isi .sosmed{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 1px;
+    margin-left : 5rem;
+}
+.biodata .isi .sosmed a{
+    color: black;
+}
+
+.pencapaian{
+    min-height: 400px;
+    margin: 40px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0px rgb(1,1,1,0.1);
+    border-top: 1px solid rgba(1, 1, 1, 0.1);
+    border-radius: 30px;
+    transform: 3s;
+    text-align: justify;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.575);
+
+}
+
+.card:hover{
+    box-shadow: 0px 6px 10px 0px rgb(1,1,1,0.3);
+}
+.card h1{
+    text-align: center;
+}
+
+.card p{
+    padding: 0 10%;
+}
+
+.card img{
+    position: relative;
+    height: 150px;
+    width: 170x;
+    margin-left: 50%;
+}
+
